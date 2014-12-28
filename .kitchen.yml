@@ -13,4 +13,5 @@ suites:
   - name: default
     run_list:
       - build-essential::default
+      - start::default  # should run `./bin/librarian-chef install` before `kitchen converge`
     attributes:
