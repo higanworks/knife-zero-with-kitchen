@@ -1,3 +1,14 @@
+GIT
+  remote: git://github.com/test-kitchen/test-kitchen.git
+  revision: 8e4ed89f405a2bf68cd51b7289dcadc783eadd2b
+  specs:
+    test-kitchen (1.2.2.dev)
+      mixlib-shellout (>= 1.2, < 3.0)
+      net-scp (~> 1.1)
+      net-ssh (~> 2.7)
+      safe_yaml (~> 1.0)
+      thor (~> 0.18)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -85,12 +96,6 @@ GEM
     safe_yaml (1.0.4)
     slop (3.6.0)
     systemu (2.6.4)
-    test-kitchen (1.2.1)
-      mixlib-shellout (~> 1.2)
-      net-scp (~> 1.1)
-      net-ssh (~> 2.7)
-      safe_yaml (~> 1.0)
-      thor (~> 0.18)
     thor (0.19.1)
     wmi-lite (1.0.0)
 
@@ -101,4 +106,4 @@ DEPENDENCIES
   kitchen-vagrant
   knife-zero
   librarian-chef
-  test-kitchen
+  test-kitchen!
